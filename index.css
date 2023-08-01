@@ -314,6 +314,11 @@ body {
     align-items: center;
     gap: 30px;
   }
+
+  .hero {
+    height: 488px;
+    padding-block: 40px;
+  }
 }
 
 .section-container {
@@ -331,3 +336,5 @@ body {
 .post-image {
   margin: 20px 0px;
 }
+
+/* padding na body a nie na posts */
