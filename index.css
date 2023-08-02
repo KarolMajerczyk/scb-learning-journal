@@ -17,15 +17,13 @@
   --fs-700: 2rem; /* 32px */
   --fs-750: 2.125rem; /* 34px */
   --fs-800: 2.25rem; /* 36px */
-  --fs-900: 2.5rem; /* 2.5rem */
+  --fs-900: 2.5rem; /* 40px */
 
   --clr-primary-400: #505050;
   --clr-primary-600: #202020;
   --clr-primary-700: #151515;
   --clr-secondary-100: #ffffff;
   --clr-secondary-200: #d7d7d7;
-
-  /* 000000 31% */
 }
 
 /* CSS Reset */
@@ -40,10 +38,6 @@
   margin: 0;
   padding: 0;
   font: inherit;
-}
-
-html {
-  color-scheme: dark light;
 }
 
 body {
@@ -205,6 +199,7 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1.25rem;
 }
 
